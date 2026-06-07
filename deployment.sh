@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-APP_DIR="/var/www/thotsparkz"
+APP_DIR="/var/www/tuscan-villas-estates"
 RELEASE_DIR="$APP_DIR/dist"
 NGINX_SITE="/etc/nginx/nginx.conf"
 
@@ -22,4 +22,4 @@ if command -v pm2 >/dev/null 2>&1; then
   pm2 save
 fi
 
-echo "THOTH SPARKZ deployed to $RELEASE_DIR"
+echo "Tuscan Villas & Estates deployed to $RELEASE_DIR"

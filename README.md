@@ -1,6 +1,6 @@
-# THOTH SPARKZ Website
+# Tuscan Villas & Estates Website
 
-Static Vite website for the THOTH SPARKZ real estate and private villas experience.
+Static Vite website for the Tuscan Villas & Estates real estate and private villas experience.
 
 ## Quick Start
 

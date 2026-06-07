@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'thoth-sparkz-v1';
+const CACHE_VERSION = 'tuscan-villas-estates-v1';
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const CORE_ASSETS = [
   '/',

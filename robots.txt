@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://thotsparkz.com/sitemap.xml
+Sitemap: https://tuscanvillasestates.com/sitemap.xml

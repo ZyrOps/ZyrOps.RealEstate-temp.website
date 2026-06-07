@@ -110,7 +110,7 @@ Use Nginx static serving as the preferred production path. PM2 preview is only a
 
 ### `deployment.sh`
 
-Builds the site, syncs `dist/` to `/var/www/thotsparkz/dist`, copies Nginx config, tests/reloads Nginx, and reloads PM2 if available.
+Builds the site, syncs `dist/` to `/var/www/tuscan-villas-estates/dist`, copies Nginx config, tests/reloads Nginx, and reloads PM2 if available.
 
 ## Editing Guidelines
 

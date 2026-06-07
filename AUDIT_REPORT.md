@@ -1,4 +1,4 @@
-# THOTH SPARKZ Audit Report
+# Tuscan Villas & Estates Audit Report
 
 ## Scope
 - Source audited: `index.html`, `real-estate.html`, `villas.html`, `property-detail.html`, legal HTML pages, Vite config, production config files, crawler files, and public assets.

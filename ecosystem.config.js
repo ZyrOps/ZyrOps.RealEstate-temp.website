@@ -1,7 +1,7 @@
 export default {
   apps: [
     {
-      name: 'thotsparkz-preview',
+      name: 'tuscan-villas-estates-preview',
       script: 'node_modules/vite/bin/vite.js',
       args: 'preview --host 127.0.0.1 --port 4173',
       exec_mode: 'cluster',

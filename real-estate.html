@@ -5,31 +5,31 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/png" href="https://www.castelfalfi.com/assets/img/favicon/favicon-96x96.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>THOTH SPARKZ | Luxury Real Estate & Exclusive Tuscan Properties</title>
-  <meta name="description" content="Discover exclusive apartments, penthouses, and estate residences for sale at THOTH SPARKZ. Own a piece of timeless Tuscan heritage.">
-  <link rel="canonical" href="https://thotsparkz.com/real-estate.html">
+  <title>Tuscan Villas & Estates | Luxury Real Estate & Exclusive Tuscan Properties</title>
+  <meta name="description" content="Discover exclusive apartments, penthouses, and estate residences for sale at Tuscan Villas & Estates. Own a piece of timeless Tuscan heritage.">
+  <link rel="canonical" href="https://tuscanvillasestates.com/real-estate.html">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=()">
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="THOTH SPARKZ">
-  <meta property="og:title" content="THOTH SPARKZ | Luxury Real Estate & Exclusive Tuscan Properties">
-  <meta property="og:description" content="Discover exclusive apartments, penthouses, and estate residences for sale at THOTH SPARKZ. Own a piece of timeless Tuscan heritage.">
-  <meta property="og:url" content="https://thotsparkz.com/real-estate.html">
-  <meta property="og:image" content="https://thotsparkz.com/Home-hero_desktop-01.webp">
+  <meta property="og:site_name" content="Tuscan Villas & Estates">
+  <meta property="og:title" content="Tuscan Villas & Estates | Luxury Real Estate & Exclusive Tuscan Properties">
+  <meta property="og:description" content="Discover exclusive apartments, penthouses, and estate residences for sale at Tuscan Villas & Estates. Own a piece of timeless Tuscan heritage.">
+  <meta property="og:url" content="https://tuscanvillasestates.com/real-estate.html">
+  <meta property="og:image" content="https://tuscanvillasestates.com/Home-hero_desktop-01.webp">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="THOTH SPARKZ | Luxury Real Estate & Exclusive Tuscan Properties">
-  <meta name="twitter:description" content="Discover exclusive apartments, penthouses, and estate residences for sale at THOTH SPARKZ. Own a piece of timeless Tuscan heritage.">
-  <meta name="twitter:image" content="https://thotsparkz.com/Home-hero_desktop-01.webp">
+  <meta name="twitter:title" content="Tuscan Villas & Estates | Luxury Real Estate & Exclusive Tuscan Properties">
+  <meta name="twitter:description" content="Discover exclusive apartments, penthouses, and estate residences for sale at Tuscan Villas & Estates. Own a piece of timeless Tuscan heritage.">
+  <meta name="twitter:image" content="https://tuscanvillasestates.com/Home-hero_desktop-01.webp">
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "RealEstateAgent",
-      "name": "THOTH SPARKZ Real Estate",
-      "url": "https://thotsparkz.com/real-estate.html",
+      "name": "Tuscan Villas & Estates Real Estate",
+      "url": "https://tuscanvillasestates.com/real-estate.html",
       "areaServed": "Tuscany",
       "parentOrganization": {
         "@type": "Organization",
-        "name": "THOTH SPARKZ"
+        "name": "Tuscan Villas & Estates"
       }
     }
   </script>
@@ -247,16 +247,24 @@
       grid-column: 2;
     }
 
-    .logo-img {
-      height: 80px;
-      width: auto;
+    .brand-wordmark {
       display: block;
+      max-width: min(260px, 42vw);
+      color: white;
+      font-family: var(--font-display);
+      font-size: clamp(0.78rem, 1.45vw, 1.08rem);
+      line-height: 1.15;
+      letter-spacing: 0.18em;
+      text-align: center;
+      text-transform: uppercase;
+      text-wrap: balance;
       filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.4));
       transition: var(--transition-smooth);
     }
     
-    .header.scrolled .logo-img {
-      height: 70px;
+    .header.scrolled .brand-wordmark {
+      color: white;
+      font-size: clamp(0.74rem, 1.25vw, 1rem);
       filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.4));
     }
 
@@ -514,10 +522,17 @@
       display: none;
     }
 
-    .logo-img-dark {
-      height: 60px;
-      width: auto;
+    .overlay-wordmark {
       display: block;
+      max-width: min(280px, 68vw);
+      color: var(--primary);
+      font-family: var(--font-display);
+      font-size: clamp(0.9rem, 2vw, 1.2rem);
+      line-height: 1.15;
+      letter-spacing: 0.18em;
+      text-align: center;
+      text-transform: uppercase;
+      text-wrap: balance;
     }
 
     .lang-pill {
@@ -1331,10 +1346,13 @@
       gap: 2rem;
     }
 
-    .footer-logo {
-      width: min(190px, 70vw);
-      height: auto;
-      display: block;
+    .footer-brand {
+      max-width: min(260px, 72vw);
+      color: white;
+      font-family: var(--font-display);
+      font-size: clamp(1.6rem, 3.8vw, 2.45rem);
+      line-height: 1.05;
+      letter-spacing: 0.04em;
       margin-bottom: 1.25rem;
     }
 
@@ -1427,7 +1445,7 @@
       </div>
       
       <a href="index.html" class="brand-logo">
-        <img src="./logo.png" alt="THOTH SPARKZ Logo" class="logo-img" loading="eager" decoding="async" fetchpriority="high">
+        <span class="brand-wordmark">Tuscan Villas & Estates</span>
       </a>
       
       <div class="header-right">
@@ -1449,7 +1467,7 @@
         </svg>
       </button>
       <div class="overlay-logo">
-        <img src="./logo.png" alt="THOTH SPARKZ Logo" class="logo-img-dark" loading="eager" decoding="async" fetchpriority="high">
+        <span class="overlay-wordmark">Tuscan Villas & Estates</span>
       </div>
       <div class="overlay-lang">
         <span class="lang-pill">EN <span class="lang-divider">/</span> IT</span>
@@ -1479,26 +1497,26 @@
         <a href="villas.html" class="overlay-footer-link">Villas</a>
       </div>
       <div class="overlay-socials">
-        <a href="https://www.instagram.com/thotsparkz" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+        <a href="https://www.instagram.com/tuscanvillasestates" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
           <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
             <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
             <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
           </svg>
         </a>
-        <a href="https://www.linkedin.com/company/thotsparkz" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <a href="https://www.linkedin.com/company/tuscanvillasestates" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
           <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
             <rect x="2" y="9" width="4" height="12"></rect>
             <circle cx="4" cy="4" r="2"></circle>
           </svg>
         </a>
-        <a href="https://www.facebook.com/thotsparkz" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+        <a href="https://www.facebook.com/tuscanvillasestates" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
           <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
           </svg>
         </a>
-        <a href="https://www.youtube.com/@thotsparkz" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+        <a href="https://www.youtube.com/@tuscanvillasestates" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
           <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
             <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
@@ -1515,7 +1533,7 @@
     <div class="booking-modal-bg" id="close-booking-bg"></div>
     <div class="booking-modal-content contact-window">
       <button class="booking-close" id="close-booking-btn-cross" aria-label="Close contact form">&times;</button>
-      <h3 class="booking-title" id="modal-title">Contact THOTH SPARKZ</h3>
+      <h3 class="booking-title" id="modal-title">Contact Tuscan Villas & Estates</h3>
       <p class="contact-window-intro">Tell us whether you are interested in our Real Estate collection or Private Villas. Our team will contact you with availability, pricing, and next steps.</p>
       <div class="contact-window-grid">
         <form class="booking-form contact-form" id="booking-form">
@@ -1528,8 +1546,8 @@
         <aside class="contact-info-panel" aria-label="Contact information">
           <h4 class="contact-info-title">Contact Information</h4>
           <div class="contact-info-list">
-            <div class="contact-info-item"><span class="contact-info-icon">L</span><div><p class="contact-info-label">Our Location</p><p class="contact-info-text">THOTH SPARKZ Estate, Montaione, Firenze, Italia</p></div></div>
-            <div class="contact-info-item"><span class="contact-info-icon">E</span><div><p class="contact-info-label">Email Us</p><p class="contact-info-text">info@thotsparkzresort.com<br>concierge@thotsparkz.com</p></div></div>
+            <div class="contact-info-item"><span class="contact-info-icon">L</span><div><p class="contact-info-label">Our Location</p><p class="contact-info-text">Tuscan Hills Estate, Montaione, Firenze, Italia</p></div></div>
+            <div class="contact-info-item"><span class="contact-info-icon">E</span><div><p class="contact-info-label">Email Us</p><p class="contact-info-text">info@tuscanvillasestates.com<br>concierge@tuscanvillasestates.com</p></div></div>
             <div class="contact-info-item"><span class="contact-info-icon">P</span><div><p class="contact-info-label">Call Us</p><p class="contact-info-text">+39 0571 892000<br>+39 0571 892001</p></div></div>
           </div>
           <div class="contact-map" aria-hidden="true"></div>
@@ -1542,7 +1560,7 @@
        HERO BANNER
        ---------------------------------------------------- -->
   <section class="hero-banner">
-    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1920&q=80" alt="THOTH SPARKZ Real Estate Banner" class="hero-banner-bg" loading="eager" decoding="async" fetchpriority="high">
+    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1920&q=80" alt="Tuscan Villas & Estates Real Estate Banner" class="hero-banner-bg" loading="eager" decoding="async" fetchpriority="high">
     <div class="hero-banner-overlay"></div>
     <div class="hero-banner-content">
       <h1 class="hero-banner-title">Real Estate</h1>
@@ -1559,7 +1577,7 @@
       <h2 class="section-title">An Unrivaled Investment in Tuscan Elegance</h2>
       <div class="section-divider centered"></div>
       <p class="section-paragraph">
-        Owning property at THOTH SPARKZ means more than possessing an exclusive home. It means becoming part of an 1100-year-old agricultural hamlet, where restoration is carried out with complete architectural respect, and modern comforts are gracefully intertwined.
+        Owning property at Tuscan Villas & Estates means more than possessing an exclusive home. It means becoming part of an 1100-year-old agricultural hamlet, where restoration is carried out with complete architectural respect, and modern comforts are gracefully intertwined.
       </p>
     </div>
   </section>
@@ -1824,12 +1842,12 @@
   <footer class="footer" id="footer">
     <div class="section-container footer-grid">
       <div class="footer-col brand-col">
-        <img src="./footer-logo.png" alt="THOTH SPARKZ" class="footer-logo" loading="lazy" decoding="async">
+        <div class="footer-brand">Tuscan Villas & Estates</div>
         <p class="footer-info">
-          Località THOTH SPARKZ, 50050<br>
+          Localit? Montaione Estate, 50050<br>
           Montaione, Firenze, Italia<br>
           Tel: +39 0571 892000<br>
-          Email: info@thotsparkzresort.com
+          Email: info@tuscanvillasestates.com
         </p>
       </div>
       <div class="footer-col">
@@ -1843,33 +1861,33 @@
         <h4 class="footer-col-title">Contact</h4>
         <ul class="footer-links">
           <li><a href="#footer">Contact Us</a></li>
-          <li><a href="mailto:info@thotsparkzresort.com">Email Us</a></li>
+          <li><a href="mailto:info@tuscanvillasestates.com">Email Us</a></li>
           <li><a href="tel:+390571892000">Call Us</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h4 class="footer-col-title">Connect</h4>
         <div class="footer-socials">
-          <a href="https://www.instagram.com/thotsparkz" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <a href="https://www.instagram.com/tuscanvillasestates" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
             <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
               <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
               <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
               <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
             </svg>
           </a>
-          <a href="https://www.facebook.com/thotsparkz" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <a href="https://www.facebook.com/tuscanvillasestates" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
             <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
               <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
             </svg>
           </a>
-          <a href="https://www.linkedin.com/company/thotsparkz" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/company/tuscanvillasestates" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
               <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
               <rect x="2" y="9" width="4" height="12"></rect>
               <circle cx="4" cy="4" r="2"></circle>
             </svg>
           </a>
-          <a href="https://www.youtube.com/@thotsparkz" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+          <a href="https://www.youtube.com/@tuscanvillasestates" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
             <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
               <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
               <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
@@ -1879,7 +1897,7 @@
       </div>
     </div>
     <div class="section-container footer-bottom">
-      <p class="copyright">&copy; 2026 THOTH SPARKZ. All Rights Reserved. VAT Reg. No. IT05630340486. Website by THOTH SPARKZ Design.</p>
+      <p class="copyright">&copy; 2026 Tuscan Villas & Estates. All Rights Reserved. VAT Reg. No. IT05630340486. Website by Estate Digital Studio.</p>
       <div class="footer-legal-links">
         <a href="privacy-policy.html">Privacy Policy</a>
         <a href="terms.html">Terms & Conditions</a>
@@ -2015,7 +2033,7 @@
 
     document.getElementById('booking-form').addEventListener('submit', (e) => {
       e.preventDefault();
-      alert('Thank you. A THOTH SPARKZ specialist will contact you shortly.');
+      alert('Thank you. A Tuscan Villas & Estates specialist will contact you shortly.');
       closeModal();
     });
 
