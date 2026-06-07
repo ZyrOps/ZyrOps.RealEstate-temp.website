@@ -1,0 +1,2210 @@
+<!doctype html>
+<html lang="en" class="lenis-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="https://www.castelfalfi.com/assets/img/favicon/favicon-96x96.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>THOTH SPARKZ | Luxury Real Estate & Exclusive Tuscan Properties</title>
+  <meta name="description" content="Discover exclusive apartments, penthouses, and estate residences for sale at THOTH SPARKZ. Own a piece of timeless Tuscan heritage.">
+  <link rel="canonical" href="https://thotsparkz.com/real-estate.html">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=()">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="THOTH SPARKZ">
+  <meta property="og:title" content="THOTH SPARKZ | Luxury Real Estate & Exclusive Tuscan Properties">
+  <meta property="og:description" content="Discover exclusive apartments, penthouses, and estate residences for sale at THOTH SPARKZ. Own a piece of timeless Tuscan heritage.">
+  <meta property="og:url" content="https://thotsparkz.com/real-estate.html">
+  <meta property="og:image" content="https://thotsparkz.com/Home-hero_desktop-01.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="THOTH SPARKZ | Luxury Real Estate & Exclusive Tuscan Properties">
+  <meta name="twitter:description" content="Discover exclusive apartments, penthouses, and estate residences for sale at THOTH SPARKZ. Own a piece of timeless Tuscan heritage.">
+  <meta name="twitter:image" content="https://thotsparkz.com/Home-hero_desktop-01.webp">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "RealEstateAgent",
+      "name": "THOTH SPARKZ Real Estate",
+      "url": "https://thotsparkz.com/real-estate.html",
+      "areaServed": "Tuscany",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "THOTH SPARKZ"
+      }
+    }
+  </script>
+  
+  <!-- Preconnect & Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Jost:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Tenor+Sans&display=swap" rel="stylesheet">
+  
+  <!-- CDNs for animations and smooth scroll -->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha384-d+vyQ0dYcymoP8ndq2hW7FGC50nqGdXUEgoOUGxbbkAJwZqL7h+jKN0GGgn9hFDS" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha384-poC0r6usQOX2Ayt/VGA+t81H6V3iN9L+Irz9iO8o+s0X20tLpzc9DOOtnKxhaQSE" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script defer src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js" integrity="sha384-1WGQkFnxW1xGT/hA+gFwSPtqEcYgEcv19oBIue7bnFPZo4zeeFhqBLWXwL7IBkY9" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <style>
+    /* ----------------------------------------------------
+       DESIGN SYSTEM & RESET
+       ---------------------------------------------------- */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --primary: #0A1F44;       /* Deep Navy Blue */
+      --accent: #B51C2E;        /* Rich Crimson Red */
+      --bg-warm: #FAF8F4;       /* Off-White / Warm Ivory */
+      --text-charcoal: #2C2C2C; /* Charcoal */
+      --gold: #C9A96E;          /* Gold Accent */
+      --gold-opacity: rgba(201, 169, 110, 0.3);
+      --font-display: 'Tenor Sans', 'Optima', 'Segoe UI', sans-serif;
+      --font-body: 'Jost', 'Helvetica Neue', Arial, sans-serif;
+      --font-sans: 'Jost', 'Helvetica Neue', Arial, sans-serif;
+      --font-calligraphy: 'Great Vibes', 'Brush Script MT', cursive;
+      --transition-smooth: all 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+    }
+
+    html {
+      scroll-behavior: auto;
+    }
+
+    html.lenis {
+      height: auto;
+    }
+
+    body {
+      background-color: var(--bg-warm);
+      color: var(--text-charcoal);
+      font-family: var(--font-body);
+      font-size: 1.1rem;
+      line-height: 1.8;
+      font-weight: 300;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    :focus-visible {
+      outline: 3px solid var(--gold);
+      outline-offset: 4px;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: var(--bg-warm);
+    }
+    ::-webkit-scrollbar-thumb {
+      background: var(--gold);
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--accent);
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      transition: var(--transition-smooth);
+    }
+
+    /* Helper Layouts */
+    .section-container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 4rem;
+      width: 100%;
+    }
+
+    @media (max-width: 768px) {
+      .section-container {
+        padding: 0 1.5rem;
+      }
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .max-width-800 {
+      max-width: 800px;
+    }
+
+    .centered {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* ----------------------------------------------------
+       TYPOGRAPHY
+       ---------------------------------------------------- */
+    .section-pretitle {
+      font-family: var(--font-sans);
+      font-size: 0.85rem;
+      font-weight: 500;
+      letter-spacing: 0.25em;
+      color: var(--accent);
+      text-transform: uppercase;
+      display: block;
+      margin-bottom: 1.5rem;
+    }
+
+    .section-title {
+      font-family: var(--font-display);
+      font-size: 3rem;
+      font-weight: 300;
+      color: var(--primary);
+      line-height: 1.2;
+      margin-bottom: 2rem;
+    }
+
+    @media (max-width: 768px) {
+      .section-title {
+        font-size: 2.2rem;
+      }
+    }
+
+    .section-paragraph {
+      color: var(--text-charcoal);
+      margin-bottom: 1.8rem;
+      font-size: 1.15rem;
+    }
+
+    .section-divider {
+      width: 80px;
+      height: 1px;
+      background-color: var(--gold);
+      margin: 2.5rem 0;
+    }
+
+    .section-divider.centered {
+      margin: 2.5rem auto;
+    }
+
+    /* ----------------------------------------------------
+       HEADER & NAVIGATION
+       ---------------------------------------------------- */
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100px;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      background: transparent;
+      border-bottom: none;
+      box-shadow: none;
+      transition: var(--transition-smooth);
+    }
+
+    .header.scrolled {
+      height: 80px;
+      background: transparent;
+      border-bottom: none;
+      box-shadow: none;
+    }
+
+    .header-container {
+      max-width: 1600px;
+      margin: 0 auto;
+      padding: 0 3rem;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      align-items: center;
+    }
+    
+    .header-left {
+      display: flex;
+      justify-content: flex-start;
+    }
+    
+    .header-right {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .brand-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      grid-column: 2;
+    }
+
+    .logo-img {
+      height: 80px;
+      width: auto;
+      display: block;
+      filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.4));
+      transition: var(--transition-smooth);
+    }
+    
+    .header.scrolled .logo-img {
+      height: 70px;
+      filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.4));
+    }
+
+    /* ----------------------------------------------------
+       BUTTONS & CTAS (ALL LUXURY CURVED BLUE PILLS)
+       ---------------------------------------------------- */
+    .btn-luxe, 
+    .btn-luxe-border, 
+    .cta-link, 
+    .cta-link-light, 
+    .btn-book, 
+    .btn-submit-booking, 
+    .newsletter-btn, 
+    .hero-cta, 
+    .dining-card-cta, 
+    .slider-arrow,
+    .property-cta,
+    .related-card-cta,
+    .btn-luxe-accent {
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      font-family: var(--font-sans);
+      font-weight: 500;
+      text-transform: uppercase;
+      background-color: var(--primary);
+      color: white;
+      border: 2px solid var(--primary);
+      border-radius: 50px;
+      cursor: pointer;
+      transition: color 0.8s cubic-bezier(0.25, 1, 0.5, 1), border-color 0.8s cubic-bezier(0.25, 1, 0.5, 1), transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    /* Shared slide-in fill background */
+    .btn-luxe::before, 
+    .btn-luxe-border::before, 
+    .cta-link::before, 
+    .cta-link-light::before, 
+    .btn-book::before, 
+    .btn-submit-booking::before, 
+    .newsletter-btn::before, 
+    .hero-cta::before, 
+    .dining-card-cta::before, 
+    .slider-arrow::before,
+    .property-cta::before,
+    .related-card-cta::before,
+    .btn-luxe-accent::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: white;
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+      z-index: -1;
+      border-radius: 50px;
+    }
+
+    /* Shared Hover Effects */
+    .btn-luxe:hover, 
+    .btn-luxe-border:hover, 
+    .cta-link:hover, 
+    .cta-link-light:hover, 
+    .btn-book:hover, 
+    .btn-submit-booking:hover, 
+    .newsletter-btn:hover, 
+    .hero-cta:hover, 
+    .dining-card-cta:hover, 
+    .slider-arrow:hover,
+    .property-cta:hover,
+    .related-card-cta:hover,
+    .btn-luxe-accent:hover {
+      color: var(--primary);
+      border-color: var(--primary);
+      box-shadow: 0 10px 25px rgba(10, 31, 68, 0.15);
+    }
+
+    .btn-luxe:hover::before, 
+    .btn-luxe-border:hover::before, 
+    .cta-link:hover::before, 
+    .cta-link-light:hover::before, 
+    .btn-book:hover::before, 
+    .btn-submit-booking:hover::before, 
+    .newsletter-btn:hover::before, 
+    .hero-cta:hover::before, 
+    .dining-card-cta:hover::before, 
+    .slider-arrow:hover::before,
+    .property-cta:hover::before,
+    .related-card-cta:hover::before,
+    .btn-luxe-accent:hover::before {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+
+    /* Individual sizing & padding overrides */
+    .btn-luxe, 
+    .btn-luxe-border,
+    .btn-luxe-accent {
+      font-size: 0.85rem;
+      letter-spacing: 0.2em;
+      padding: 1.2rem 2.8rem;
+    }
+
+    .btn-book {
+      font-size: 0.8rem;
+      letter-spacing: 0.15em;
+      padding: 0.8rem 2rem;
+    }
+
+    .cta-link, 
+    .cta-link-light,
+    .property-cta,
+    .related-card-cta {
+      font-size: 0.9rem;
+      letter-spacing: 0.15em;
+      padding: 1rem 2.2rem;
+      margin-top: 1rem;
+    }
+
+    .cta-link .arrow-right, 
+    .cta-link-light .arrow-right,
+    .property-cta .arrow,
+    .related-card-cta .arrow {
+      display: inline-flex;
+      width: 1.1em;
+      overflow: hidden;
+      transform-origin: left center;
+      transition: width 0.45s cubic-bezier(0.22, 1, 0.36, 1), transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    .cta-link:hover .arrow-right, 
+    .cta-link-light:hover .arrow-right,
+    .property-cta:hover .arrow,
+    .related-card-cta:hover .arrow {
+      width: 2.7rem;
+      transform: translateX(0.65rem) scaleX(1.5);
+    }
+
+    .cta-link::after,
+    .cta-link-light::after,
+    .property-cta::after,
+    .related-card-cta::after {
+      content: "";
+      width: 0;
+      height: 1px;
+      background: currentColor;
+      opacity: 0.8;
+      transform-origin: left center;
+      transition: width 0.45s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.3s ease;
+    }
+
+    .cta-link:hover::after,
+    .cta-link-light:hover::after,
+    .property-cta:hover::after,
+    .related-card-cta:hover::after {
+      width: 2.2rem;
+    }
+
+    /* Burger Menu Button */
+    .burger-menu {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 7px;
+      width: 28px;
+      height: 28px;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      z-index: 1010;
+      transition: transform 0.45s cubic-bezier(0.25, 1, 0.5, 1);
+    }
+
+    .burger-menu span {
+      display: block;
+      width: 100%;
+      height: 2px;
+      background-color: white;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+      transform-origin: center;
+      transition:
+        transform 0.55s cubic-bezier(0.76, 0, 0.24, 1),
+        opacity 0.28s ease,
+        background-color 0.35s ease,
+        box-shadow 0.35s ease;
+    }
+
+    .header.scrolled .burger-menu span {
+      background-color: white;
+    }
+
+    .burger-menu.active span:nth-child(1) {
+      transform: translateY(9px) rotate(135deg);
+      background-color: var(--primary);
+      box-shadow: none;
+    }
+
+    .burger-menu.active span:nth-child(2) {
+      opacity: 0;
+      transform: scaleX(0);
+    }
+
+    .burger-menu.active span:nth-child(3) {
+      transform: translateY(-9px) rotate(-135deg);
+      background-color: var(--primary);
+      box-shadow: none;
+    }
+
+    body.menu-open .header {
+      z-index: 2105;
+    }
+
+    body.menu-open .header-right {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    /* Slide-Down Menu Overlay */
+    .overlay-menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: #F4F3EF;
+      z-index: 2000;
+      transform: translateY(-100%);
+      transition: transform 0.7s cubic-bezier(0.25, 1, 0.5, 1);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 3rem 4rem;
+      box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
+    }
+
+    .overlay-menu.active {
+      transform: translateY(0);
+    }
+
+    .overlay-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+
+    .overlay-close-btn {
+      display: none;
+    }
+
+    .logo-img-dark {
+      height: 60px;
+      width: auto;
+      display: block;
+    }
+
+    .lang-pill {
+      font-family: var(--font-sans);
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      background-color: #8C8C8C;
+      color: white;
+      padding: 0.5rem 1.2rem;
+      border-radius: 20px;
+      display: inline-flex;
+      align-items: center;
+    }
+    
+    .lang-divider {
+      margin: 0 0.4rem;
+      opacity: 0.5;
+    }
+
+    .overlay-body {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 5rem;
+      align-items: center;
+      flex-grow: 1;
+      margin: 3rem 0;
+      overflow: hidden;
+    }
+
+    @media (max-width: 991px) {
+      .overlay-body {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin: 2rem 0;
+      }
+      .overlay-left-col {
+        display: none;
+      }
+    }
+
+    .overlay-left-col {
+      width: 100%;
+      height: 100%;
+      max-height: 550px;
+      display: flex;
+      align-items: center;
+    }
+
+    .overlay-banner-img {
+      width: 100%;
+      height: 100%;
+      border-radius: 24px;
+      overflow: hidden;
+      aspect-ratio: 4/3;
+    }
+
+    .overlay-tuscan-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: opacity 0.3s ease-in-out;
+    }
+
+    .overlay-right-col {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .overlay-links {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+    }
+
+    .overlay-link {
+      font-family: var(--font-display);
+      font-size: 2.2rem;
+      font-weight: 300;
+      color: var(--primary);
+      transition: var(--transition-smooth);
+      opacity: 0;
+      transform: translateY(20px);
+      display: inline-block;
+    }
+
+    .overlay-menu.active .overlay-link {
+      opacity: 1;
+      transform: translateY(0);
+      transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    }
+
+    .overlay-menu.active .overlay-link:nth-child(1) { transition-delay: 0.1s; }
+    .overlay-menu.active .overlay-link:nth-child(2) { transition-delay: 0.2s; }
+    .overlay-menu.active .overlay-link:nth-child(3) { transition-delay: 0.3s; }
+    .overlay-menu.active .overlay-link:nth-child(4) { transition-delay: 0.4s; }
+    .overlay-menu.active .overlay-link:nth-child(5) { transition-delay: 0.5s; }
+    .overlay-menu.active .overlay-link:nth-child(6) { transition-delay: 0.6s; }
+
+    .overlay-link:hover {
+      color: var(--accent);
+      transform: scale(1.05) !important;
+    }
+
+    .overlay-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      border-top: 1px solid rgba(201, 169, 110, 0.2);
+      padding-top: 2rem;
+    }
+
+    @media (max-width: 576px) {
+      .overlay-menu {
+        padding: 2rem 1.5rem;
+      }
+      .overlay-footer {
+        flex-direction: column;
+        gap: 1.5rem;
+        text-align: center;
+      }
+    }
+
+    .overlay-footer-links {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .overlay-footer-link {
+      font-family: var(--font-sans);
+      font-size: 0.85rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-charcoal);
+      border-bottom: 1px solid transparent;
+    }
+
+    .overlay-footer-link:hover {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
+
+    .overlay-socials {
+      display: flex;
+      gap: 1.5rem;
+      color: var(--primary);
+    }
+
+    .overlay-socials a:hover {
+      color: var(--accent);
+      transform: translateY(-2px);
+    }
+
+    /* Body lock when mobile menu active */
+    body.menu-open {
+      overflow: hidden;
+    }
+
+    /* ----------------------------------------------------
+       HERO BANNER (Listing Style)
+       ---------------------------------------------------- */
+    .hero-banner {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      z-index: 0;
+    }
+
+    .hero-banner-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 1;
+    }
+
+    .hero-banner-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom, rgba(10, 31, 68, 0.5) 0%, rgba(10, 31, 68, 0.4) 60%, rgba(10, 31, 68, 0.7) 100%);
+      z-index: 2;
+    }
+
+    .hero-banner-content {
+      position: relative;
+      z-index: 3;
+      text-align: center;
+      color: white;
+      max-width: 800px;
+      padding: 0 2rem;
+    }
+
+    .hero-banner-title {
+      font-family: var(--font-display);
+      font-size: 5rem;
+      font-weight: 300;
+      line-height: 1.1;
+      letter-spacing: 0.05em;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero-banner-subtitle {
+      font-family: var(--font-body);
+      font-size: 1.2rem;
+      font-weight: 300;
+      opacity: 0.9;
+    }
+
+    @media (max-width: 768px) {
+      .hero-banner-title {
+        font-size: 3.5rem;
+      }
+    }
+
+    /* ----------------------------------------------------
+       INTRO SECTION
+       ---------------------------------------------------- */
+    .intro-section {
+      padding: 8rem 0 4rem;
+      background-color: var(--bg-warm);
+      border-radius: 40px 40px 0 0;
+      margin-top: 0;
+      position: relative;
+      z-index: 3;
+      box-shadow: 0 -2rem 4rem rgba(10, 31, 68, 0.08);
+    }
+
+    /* ----------------------------------------------------
+       PROPERTIES LISTING (Asymmetrical, Alternating Blocks)
+       ---------------------------------------------------- */
+    .properties-section {
+      padding: 1rem 0 9rem;
+      background-color: var(--bg-warm);
+      position: relative;
+      z-index: 3;
+    }
+
+    .properties-section .section-container {
+      max-width: 1480px;
+    }
+
+    .property-block {
+      display: grid;
+      grid-template-columns: minmax(360px, 0.92fr) minmax(480px, 1.18fr);
+      gap: clamp(3rem, 7vw, 8rem);
+      align-items: center;
+      padding: clamp(5rem, 8vw, 8rem) 0;
+      border-bottom: 1px solid rgba(201, 169, 110, 0.22);
+      cursor: pointer;
+    }
+
+    .property-block.reverse {
+      grid-template-columns: minmax(480px, 1.18fr) minmax(360px, 0.92fr);
+    }
+
+    .property-block.reverse .property-text-col {
+      order: 2;
+    }
+
+    .property-block.reverse .property-image-col {
+      order: 1;
+    }
+
+    @media (max-width: 991px) {
+      .property-block {
+        grid-template-columns: 1fr !important;
+        gap: 2.5rem;
+        padding: 4.5rem 0;
+      }
+      .property-block.reverse .property-text-col {
+        order: 2 !important;
+      }
+      .property-block.reverse .property-image-col {
+        order: 1 !important;
+      }
+    }
+
+    .property-text-col {
+      display: flex;
+      flex-direction: column;
+      gap: 1.15rem;
+      max-width: 560px;
+    }
+
+    .property-category {
+      font-family: var(--font-sans);
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--accent);
+      display: block;
+      margin-bottom: 1.2rem;
+    }
+
+    .property-name {
+      font-family: var(--font-calligraphy);
+      font-size: clamp(4rem, 6.8vw, 7rem);
+      font-weight: 400;
+      color: var(--primary);
+      line-height: 0.9;
+      letter-spacing: 0;
+    }
+
+    .property-specs {
+      font-family: var(--font-sans);
+      font-size: 0.82rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-charcoal);
+      opacity: 0.72;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin: 0.2rem 0 0.8rem;
+    }
+
+    .property-specs span:not(:last-child)::after {
+      content: ' |';
+      margin-left: 0.5rem;
+      color: var(--gold);
+    }
+
+    .property-desc {
+      font-family: var(--font-body) !important;
+      font-size: 1.08rem;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 1.85;
+      letter-spacing: 0;
+      color: var(--text-charcoal);
+      opacity: 0.95;
+      margin-bottom: 0.8rem;
+      max-width: 520px;
+    }
+
+    .property-cta {
+      width: fit-content;
+      font-size: 0.82rem;
+      letter-spacing: 0.18em;
+      padding: 1rem 2.4rem;
+      margin-top: 1.2rem;
+    }
+
+    /* Image Container with Clip-Path Reveal */
+    .property-image-col {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .block-image-container {
+      width: min(100%, 520px);
+      height: clamp(320px, 34vw, 470px);
+      overflow: hidden;
+      position: relative;
+      border: 1px solid rgba(201, 169, 110, 0.42);
+      border-radius: 28px;
+      box-shadow: 0 22px 70px rgba(10, 31, 68, 0.12);
+      /* Base clip-path, initialized via JS to avoid flicker */
+    }
+
+    @media (max-width: 768px) {
+      .block-image-container {
+        width: 100%;
+        height: 320px;
+        border-radius: 22px;
+      }
+    }
+
+    .block-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .pinned-showcase {
+      background: var(--primary);
+      color: white;
+      position: relative;
+      z-index: 3;
+      overflow: hidden;
+    }
+
+    .showcase-pin {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: minmax(320px, 0.9fr) minmax(420px, 1.1fr);
+      align-items: center;
+      gap: clamp(3rem, 8vw, 8rem);
+      padding: clamp(5rem, 8vw, 8rem) max(2rem, 6vw);
+    }
+
+    .showcase-copy {
+      max-width: 560px;
+    }
+
+    .showcase-kicker {
+      display: block;
+      font-family: var(--font-sans);
+      font-size: 0.78rem;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1.4rem;
+    }
+
+    .showcase-title {
+      font-family: var(--font-display);
+      font-size: clamp(3rem, 5vw, 5.8rem);
+      line-height: 0.95;
+      font-weight: 300;
+      margin-bottom: 1.5rem;
+    }
+
+    .showcase-desc {
+      font-family: var(--font-body);
+      font-size: 1.1rem;
+      line-height: 1.8;
+      opacity: 0.86;
+    }
+
+    .showcase-visual {
+      position: relative;
+      aspect-ratio: 4 / 5;
+      overflow: hidden;
+      background: rgba(255,255,255,0.06);
+      transform-style: preserve-3d;
+    }
+
+    .showcase-visual img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0;
+      transform: scale(1.08);
+    }
+
+    .showcase-visual img.active {
+      opacity: 1;
+    }
+
+    @media (max-width: 900px) {
+      .showcase-pin {
+        grid-template-columns: 1fr;
+        min-height: auto;
+      }
+      .showcase-visual {
+        aspect-ratio: 16 / 11;
+      }
+    }
+
+    /* ----------------------------------------------------
+       CTA BANNER
+       ---------------------------------------------------- */
+    .cta-banner {
+      background-color: var(--primary);
+      color: white;
+      padding: 8rem 0;
+      text-align: center;
+      border-top: 1px solid var(--gold);
+      position: relative;
+    }
+
+    .cta-banner-content {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .cta-banner-title {
+      font-family: var(--font-display);
+      font-size: 3rem;
+      font-weight: 300;
+      margin-bottom: 2rem;
+      line-height: 1.2;
+    }
+
+    .btn-luxe-accent {
+      font-size: 0.85rem;
+      letter-spacing: 0.2em;
+      padding: 1.2rem 2.8rem;
+    }
+
+    /* ----------------------------------------------------
+       BOOKING MODAL
+       ---------------------------------------------------- */
+    .booking-modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 2000;
+      opacity: 0;
+      visibility: hidden;
+      transition: var(--transition-smooth);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .booking-modal.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .booking-modal-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(10, 31, 68, 0.7);
+      backdrop-filter: blur(8px);
+    }
+
+    .booking-modal-content {
+      position: relative;
+      background-color: var(--bg-warm);
+      max-width: 600px;
+      width: 90%;
+      padding: 4rem;
+      border: 1px solid var(--gold);
+      border-radius: 30px;
+      box-shadow: 0 10px 50px rgba(0, 0, 0, 0.15);
+      z-index: 10;
+      opacity: 0;
+      transform: translateY(50px);
+      transition: var(--transition-smooth);
+    }
+
+    .booking-modal.active .booking-modal-content {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .booking-close {
+      position: absolute;
+      top: 1.5rem;
+      right: 1.5rem;
+      background: transparent;
+      border: none;
+      font-size: 2rem;
+      color: var(--primary);
+      cursor: pointer;
+      transition: var(--transition-smooth);
+    }
+
+    .booking-close:hover {
+      color: var(--accent);
+    }
+
+    .booking-title {
+      font-family: var(--font-display);
+      font-size: 2.5rem;
+      font-weight: 300;
+      color: var(--primary);
+      margin-bottom: 2.5rem;
+      text-align: center;
+    }
+
+    .booking-form {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .form-group label {
+      font-family: var(--font-sans);
+      font-size: 0.8rem;
+      font-weight: 500;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+
+    .form-group input, .form-group select {
+      background: white;
+      border: 1px solid var(--gold-opacity);
+      border-radius: 50px;
+      padding: 0.8rem 1.5rem;
+      font-family: var(--font-body);
+      font-size: 1.05rem;
+      color: var(--text-charcoal);
+      outline: none;
+      transition: var(--transition-smooth);
+    }
+
+    .form-group input:focus, .form-group select:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(10, 31, 68, 0.05);
+    }
+
+    .form-group-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+
+    .btn-submit-booking {
+      margin-top: 0.6rem;
+      font-size: 0.78rem;
+      letter-spacing: 0.2em;
+      padding: 0.95rem;
+      width: 100%;
+    }
+
+    .booking-modal-content.contact-window {
+      max-width: 820px;
+      width: min(84vw, 820px);
+      padding: clamp(1.15rem, 2.2vw, 2rem);
+      background: linear-gradient(135deg, var(--bg-warm), #ffffff);
+      border-radius: 38px;
+    }
+
+    .contact-window .booking-title {
+      font-size: clamp(1.75rem, 3vw, 2.25rem);
+      margin-bottom: 0.75rem;
+    }
+
+    .contact-window-intro {
+      max-width: 560px;
+      margin: 0 auto 1.4rem;
+      text-align: center;
+      color: rgba(44, 44, 44, 0.76);
+      font-size: 0.95rem;
+      line-height: 1.55;
+    }
+
+    .contact-window-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(230px, 0.68fr);
+      gap: clamp(1rem, 2vw, 1.7rem);
+      align-items: start;
+    }
+
+    .booking-form.contact-form {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    .booking-form .form-group-full {
+      grid-column: 1 / -1;
+    }
+
+    .booking-form textarea {
+      min-height: 105px;
+      resize: vertical;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      background: white;
+      border: 1px solid var(--gold-opacity);
+      border-radius: 16px;
+      padding: 0.78rem 0.95rem;
+      font-family: var(--font-body);
+      font-size: 0.95rem;
+      color: var(--text-charcoal);
+      outline: none;
+      transition: var(--transition-smooth);
+    }
+
+    .form-group textarea:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(10, 31, 68, 0.05);
+    }
+
+    .contact-info-panel {
+      background: var(--primary);
+      color: white;
+      border-radius: 30px;
+      padding: clamp(1.1rem, 2.2vw, 1.65rem);
+      min-height: 100%;
+    }
+
+    .contact-info-title {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      font-weight: 400;
+      margin-bottom: 1.15rem;
+      color: var(--gold);
+    }
+
+    .contact-info-list {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .contact-info-item {
+      display: grid;
+      grid-template-columns: 34px 1fr;
+      gap: 0.75rem;
+      align-items: start;
+    }
+
+    .contact-info-icon {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: var(--accent);
+      color: white;
+      font-family: var(--font-sans);
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+
+    .contact-info-label {
+      font-family: var(--font-sans);
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.25rem;
+    }
+
+    .contact-info-text {
+      color: rgba(255, 255, 255, 0.82);
+      font-size: 0.88rem;
+      line-height: 1.55;
+    }
+
+    .contact-map {
+      margin-top: 1rem;
+      border-radius: 24px;
+      overflow: hidden;
+      height: 105px;
+      background:
+        linear-gradient(135deg, rgba(201, 169, 110, 0.2), rgba(181, 28, 46, 0.16)),
+        url('https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=900&q=80') center/cover;
+      border: 1px solid rgba(201, 169, 110, 0.35);
+    }
+
+    @media (max-width: 900px) {
+      .contact-window-grid,
+      .booking-form.contact-form {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    body.modal-open {
+      overflow: hidden;
+    }
+
+    /* ----------------------------------------------------
+       FOOTER
+       ---------------------------------------------------- */
+    .footer {
+      background-color: var(--primary);
+      color: white;
+      padding: 8rem 0 4rem;
+      border-top: 1px solid var(--gold);
+      position: relative;
+      z-index: 2;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 5rem;
+      margin-bottom: 6rem;
+    }
+
+    @media (max-width: 991px) {
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 3.5rem;
+      }
+    }
+
+    .footer-col {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .footer-logo {
+      width: min(190px, 70vw);
+      height: auto;
+      display: block;
+      margin-bottom: 1.25rem;
+    }
+
+    .footer-info {
+      font-size: 0.95rem;
+      line-height: 1.9;
+      opacity: 0.8;
+    }
+
+    .footer-col-title {
+      font-family: var(--font-sans);
+      font-size: 0.8rem;
+      font-weight: 500;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+
+    .footer-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+    }
+
+    .footer-links a {
+      font-size: 1rem;
+      opacity: 0.8;
+    }
+
+    .footer-links a:hover {
+      color: var(--gold);
+      opacity: 1;
+      padding-left: 0.3rem;
+    }
+
+    .footer-socials {
+      display: flex;
+      gap: 1.5rem;
+      color: var(--bg-warm);
+    }
+
+    .footer-socials a:hover {
+      color: var(--gold);
+      transform: translateY(-2px);
+    }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      padding-top: 3rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+      font-family: var(--font-sans);
+      font-size: 0.8rem;
+      letter-spacing: 0.05em;
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    .copyright {
+      max-width: 600px;
+    }
+
+    .footer-legal-links {
+      display: flex;
+      gap: 2rem;
+    }
+
+    .footer-legal-links a:hover {
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  
+  <!-- ----------------------------------------------------
+       SPLIT NAVIGATION HEADER
+       ---------------------------------------------------- -->
+  <header class="header">
+    <div class="header-container">
+      <div class="header-left">
+        <button class="burger-menu" id="burger-menu-btn" aria-label="Menu" aria-expanded="false" aria-controls="mobile-overlay-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      
+      <a href="index.html" class="brand-logo">
+        <img src="./logo.png" alt="THOTH SPARKZ Logo" class="logo-img" loading="eager" decoding="async" fetchpriority="high">
+      </a>
+      
+      <div class="header-right">
+        <button class="btn-book" id="open-booking-btn">Contact Us</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ----------------------------------------------------
+       MOBILE FULL-SCREEN OVERLAY MENU
+       ---------------------------------------------------- -->
+  <div class="overlay-menu" id="mobile-overlay-menu" aria-hidden="true">
+    <!-- Overlay Top Bar -->
+    <div class="overlay-header">
+      <button class="overlay-close-btn" id="close-menu-btn" aria-label="Close menu">
+        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <div class="overlay-logo">
+        <img src="./logo.png" alt="THOTH SPARKZ Logo" class="logo-img-dark" loading="eager" decoding="async" fetchpriority="high">
+      </div>
+      <div class="overlay-lang">
+        <span class="lang-pill">EN <span class="lang-divider">/</span> IT</span>
+      </div>
+    </div>
+    
+    <!-- Overlay Body -->
+    <div class="overlay-body">
+      <div class="overlay-left-col">
+        <div class="overlay-banner-img">
+          <img src="https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=80" alt="Scenic Tuscany" class="overlay-tuscan-img" loading="lazy" decoding="async">
+        </div>
+      </div>
+      <div class="overlay-right-col">
+        <nav class="overlay-links">
+          <a href="real-estate.html" class="overlay-link">Real Estate</a>
+          <a href="villas.html" class="overlay-link">Villas</a>
+        </nav>
+      </div>
+    </div>
+    
+    <!-- Overlay Footer -->
+    <div class="overlay-footer">
+      <div class="overlay-footer-links">
+        <a href="#footer" class="overlay-footer-link">Contact Us</a>
+        <a href="real-estate.html" class="overlay-footer-link">Real Estate</a>
+        <a href="villas.html" class="overlay-footer-link">Villas</a>
+      </div>
+      <div class="overlay-socials">
+        <a href="https://www.instagram.com/thotsparkz" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/company/thotsparkz" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+            <rect x="2" y="9" width="4" height="12"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg>
+        </a>
+        <a href="https://www.facebook.com/thotsparkz" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+          </svg>
+        </a>
+        <a href="https://www.youtube.com/@thotsparkz" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+          <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+            <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ----------------------------------------------------
+       BOOKING MODAL OVERLAY
+       ---------------------------------------------------- -->
+  <div class="booking-modal" id="booking-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="booking-modal-bg" id="close-booking-bg"></div>
+    <div class="booking-modal-content contact-window">
+      <button class="booking-close" id="close-booking-btn-cross" aria-label="Close contact form">&times;</button>
+      <h3 class="booking-title" id="modal-title">Contact THOTH SPARKZ</h3>
+      <p class="contact-window-intro">Tell us whether you are interested in our Real Estate collection or Private Villas. Our team will contact you with availability, pricing, and next steps.</p>
+      <div class="contact-window-grid">
+        <form class="booking-form contact-form" id="booking-form">
+          <div class="form-group"><label for="contact-name">Your Name</label><input type="text" id="contact-name" name="name" autocomplete="name" required placeholder="John Doe"></div>
+          <div class="form-group"><label for="contact-email">Your Email</label><input type="email" id="contact-email" name="email" autocomplete="email" required placeholder="john@example.com"></div>
+          <div class="form-group form-group-full"><label for="contact-interest">Interest</label><select id="contact-interest" name="interest" required><option value="real-estate">Real Estate</option><option value="villas">Villas</option></select></div>
+          <div class="form-group form-group-full"><label for="contact-message">Message</label><textarea id="contact-message" name="message" required placeholder="Tell us what you are looking for..."></textarea></div>
+          <button type="submit" class="btn-submit-booking">Send Message</button>
+        </form>
+        <aside class="contact-info-panel" aria-label="Contact information">
+          <h4 class="contact-info-title">Contact Information</h4>
+          <div class="contact-info-list">
+            <div class="contact-info-item"><span class="contact-info-icon">L</span><div><p class="contact-info-label">Our Location</p><p class="contact-info-text">THOTH SPARKZ Estate, Montaione, Firenze, Italia</p></div></div>
+            <div class="contact-info-item"><span class="contact-info-icon">E</span><div><p class="contact-info-label">Email Us</p><p class="contact-info-text">info@thotsparkzresort.com<br>concierge@thotsparkz.com</p></div></div>
+            <div class="contact-info-item"><span class="contact-info-icon">P</span><div><p class="contact-info-label">Call Us</p><p class="contact-info-text">+39 0571 892000<br>+39 0571 892001</p></div></div>
+          </div>
+          <div class="contact-map" aria-hidden="true"></div>
+        </aside>
+      </div>
+    </div>
+  </div>
+
+  <!-- ----------------------------------------------------
+       HERO BANNER
+       ---------------------------------------------------- -->
+  <section class="hero-banner">
+    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1920&q=80" alt="THOTH SPARKZ Real Estate Banner" class="hero-banner-bg" loading="eager" decoding="async" fetchpriority="high">
+    <div class="hero-banner-overlay"></div>
+    <div class="hero-banner-content">
+      <h1 class="hero-banner-title">Real Estate</h1>
+      <p class="hero-banner-subtitle">Exquisite apartments, penthouses, and historical estates to own in the heart of Tuscany.</p>
+    </div>
+  </section>
+
+  <!-- ----------------------------------------------------
+       INTRO SECTION
+       ---------------------------------------------------- -->
+  <section class="intro-section text-center">
+    <div class="section-container max-width-800 centered">
+      <span class="section-pretitle">The Heritage Collection</span>
+      <h2 class="section-title">An Unrivaled Investment in Tuscan Elegance</h2>
+      <div class="section-divider centered"></div>
+      <p class="section-paragraph">
+        Owning property at THOTH SPARKZ means more than possessing an exclusive home. It means becoming part of an 1100-year-old agricultural hamlet, where restoration is carried out with complete architectural respect, and modern comforts are gracefully intertwined.
+      </p>
+    </div>
+  </section>
+
+  <!-- ----------------------------------------------------
+       PROPERTIES LISTING (Alternating Blocks)
+       ---------------------------------------------------- -->
+  <section class="properties-section">
+    <div class="section-container">
+      
+      <!-- 1. Palazzo Grande -->
+      <div class="property-block" role="link" tabindex="0" data-href="property-detail.html?id=palazzo-grande">
+        <div class="property-text-col">
+          <div class="anim-text">
+            <span class="property-category">Luxury Apartments</span>
+            <h3 class="property-name">Palazzo Grande</h3>
+          </div>
+          <div class="anim-text">
+            <div class="property-specs">
+              <span>180 SQM</span>
+              <span>3 Bedrooms</span>
+              <span>Panoramic View</span>
+              <span>Pool Access</span>
+            </div>
+          </div>
+          <div class="anim-text">
+            <p class="property-desc">
+              A masterfully restored noble residence capturing expansive golf vistas and the silhouette of our historic medieval castle towers.
+            </p>
+          </div>
+          <div class="anim-text">
+            <a href="property-detail.html?id=palazzo-grande" class="property-cta">Discover Property <span class="arrow">&rarr;</span></a>
+          </div>
+        </div>
+        <div class="property-image-col">
+          <div class="block-image-container">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80" alt="Palazzo Grande" class="block-image" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. Villa Terrazza (Reverse) -->
+      <div class="property-block reverse" role="link" tabindex="0" data-href="property-detail.html?id=villa-terrazza">
+        <div class="property-text-col">
+          <div class="anim-text">
+            <span class="property-category">Luxury Apartments</span>
+            <h3 class="property-name">Villa Terrazza</h3>
+          </div>
+          <div class="anim-text">
+            <div class="property-specs">
+              <span>150 SQM</span>
+              <span>2 Bedrooms</span>
+              <span>Spacious Terrace</span>
+              <span>Garden Access</span>
+            </div>
+          </div>
+          <div class="anim-text">
+            <p class="property-desc">
+              Elegant open-concept noble residence focusing on light and indoor-outdoor fluid living, showcasing a private wide terrace suspended above the valley floor.
+            </p>
+          </div>
+          <div class="anim-text">
+            <a href="property-detail.html?id=villa-terrazza" class="property-cta">Discover Property <span class="arrow">&rarr;</span></a>
+          </div>
+        </div>
+        <div class="property-image-col">
+          <div class="block-image-container">
+            <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80" alt="Villa Terrazza" class="block-image" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. Residenza Sole -->
+      <div class="property-block" role="link" tabindex="0" data-href="property-detail.html?id=residenza-sole">
+        <div class="property-text-col">
+          <div class="anim-text">
+            <span class="property-category">Luxury Apartments</span>
+            <h3 class="property-name">Residenza Sole</h3>
+          </div>
+          <div class="anim-text">
+            <div class="property-specs">
+              <span>120 SQM</span>
+              <span>2 Bedrooms</span>
+              <span>South Facing</span>
+              <span>Vineyard View</span>
+            </div>
+          </div>
+          <div class="anim-text">
+            <p class="property-desc">
+              Bathed in golden sun from dawn until dusk, featuring private garden pathways that open directly onto rows of Sangiovese vineyards.
+            </p>
+          </div>
+          <div class="anim-text">
+            <a href="property-detail.html?id=residenza-sole" class="property-cta">Discover Property <span class="arrow">&rarr;</span></a>
+          </div>
+        </div>
+        <div class="property-image-col">
+          <div class="block-image-container">
+            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80" alt="Residenza Sole" class="block-image" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+
+      <!-- 4. Cielo Penthouse (Reverse) -->
+      <div class="property-block reverse" role="link" tabindex="0" data-href="property-detail.html?id=cielo-penthouse">
+        <div class="property-text-col">
+          <div class="anim-text">
+            <span class="property-category">Exclusive Penthouses</span>
+            <h3 class="property-name">Cielo Penthouse</h3>
+          </div>
+          <div class="anim-text">
+            <div class="property-specs">
+              <span>280 SQM</span>
+              <span>4 Bedrooms</span>
+              <span>Rooftop Terrace</span>
+              <span>360° Views</span>
+            </div>
+          </div>
+          <div class="anim-text">
+            <p class="property-desc">
+              Occupying the highest tier of our heritage buildings, featuring an expansive private rooftop belvedere deck framing infinite 360-degree views.
+            </p>
+          </div>
+          <div class="anim-text">
+            <a href="property-detail.html?id=cielo-penthouse" class="property-cta">Discover Property <span class="arrow">&rarr;</span></a>
+          </div>
+        </div>
+        <div class="property-image-col">
+          <div class="block-image-container">
+            <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80" alt="Cielo Penthouse" class="block-image" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+
+      <!-- 5. Panorama Suite -->
+      <div class="property-block" role="link" tabindex="0" data-href="property-detail.html?id=panorama-suite">
+        <div class="property-text-col">
+          <div class="anim-text">
+            <span class="property-category">Exclusive Penthouses</span>
+            <h3 class="property-name">Panorama Suite</h3>
+          </div>
+          <div class="anim-text">
+            <div class="property-specs">
+              <span>220 SQM</span>
+              <span>3 Bedrooms</span>
+              <span>Private Elevator</span>
+              <span>Infinity Pool</span>
+            </div>
+          </div>
+          <div class="anim-text">
+            <p class="property-desc">
+              Ultra-modern layout with keyless private elevator entry opening directly into spaces wrapped by continuous panoramic glass walls.
+            </p>
+          </div>
+          <div class="anim-text">
+            <a href="property-detail.html?id=panorama-suite" class="property-cta">Discover Property <span class="arrow">&rarr;</span></a>
+          </div>
+        </div>
+        <div class="property-image-col">
+          <div class="block-image-container">
+            <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=80" alt="Panorama Suite" class="block-image" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+
+      <!-- 6. Tenuta Heritage (Reverse) -->
+      <div class="property-block reverse" role="link" tabindex="0" data-href="property-detail.html?id=tenuta-heritage">
+        <div class="property-text-col">
+          <div class="anim-text">
+            <span class="property-category">Estate Residences</span>
+            <h3 class="property-name">Tenuta Heritage</h3>
+          </div>
+          <div class="anim-text">
+            <div class="property-specs">
+              <span>450 SQM</span>
+              <span>5 Bedrooms</span>
+              <span>Private Garden</span>
+              <span>Wine Cellar</span>
+            </div>
+          </div>
+          <div class="anim-text">
+            <p class="property-desc">
+              A magnificent historic Tuscan villa featuring vaulted brick ceilings, century-old stone fireplaces, and an underground natural wine vault.
+            </p>
+          </div>
+          <div class="anim-text">
+            <a href="property-detail.html?id=tenuta-heritage" class="property-cta">Discover Property <span class="arrow">&rarr;</span></a>
+          </div>
+        </div>
+        <div class="property-image-col">
+          <div class="block-image-container">
+            <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80" alt="Tenuta Heritage" class="block-image" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+
+      <!-- 7. Il Giardino Estate -->
+      <div class="property-block" role="link" tabindex="0" data-href="property-detail.html?id=il-giardino">
+        <div class="property-text-col">
+          <div class="anim-text">
+            <span class="property-category">Estate Residences</span>
+            <h3 class="property-name">Il Giardino Estate</h3>
+          </div>
+          <div class="anim-text">
+            <div class="property-specs">
+              <span>380 SQM</span>
+              <span>4 Bedrooms</span>
+              <span>Olive Grove</span>
+              <span>Guest Cottage</span>
+            </div>
+          </div>
+          <div class="anim-text">
+            <p class="property-desc">
+              A sprawling villa surrounded by a private grove of mature olive trees, complete with a separate stone-built guest cottage.
+            </p>
+          </div>
+          <div class="anim-text">
+            <a href="property-detail.html?id=il-giardino" class="property-cta">Discover Property <span class="arrow">&rarr;</span></a>
+          </div>
+        </div>
+        <div class="property-image-col">
+          <div class="block-image-container">
+            <img src="https://images.unsplash.com/photo-1602941525421-8f8b81d3edbb?auto=format&fit=crop&w=1200&q=80" alt="Il Giardino Estate" class="block-image" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="pinned-showcase" aria-label="Featured real estate story">
+    <div class="showcase-pin">
+      <div class="showcase-copy">
+        <span class="showcase-kicker" id="showcase-kicker">Heritage Residence</span>
+        <h2 class="showcase-title" id="showcase-title">Palazzo Grande</h2>
+        <p class="showcase-desc" id="showcase-desc">Restored noble architecture, panoramic views, and resort living gathered into one private address.</p>
+      </div>
+      <div class="showcase-visual" id="showcase-visual">
+        <img class="active" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=80" alt="Palazzo Grande showcase" loading="lazy" decoding="async">
+        <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=80" alt="Cielo Penthouse showcase" loading="lazy" decoding="async">
+        <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1400&q=80" alt="Tenuta Heritage showcase" loading="lazy" decoding="async">
+      </div>
+    </div>
+  </section>
+
+  <!-- ----------------------------------------------------
+       CTA BANNER
+       ---------------------------------------------------- -->
+  <section class="cta-banner">
+    <div class="section-container cta-banner-content">
+      <h2 class="cta-banner-title">Begin Your Tuscan Legacy</h2>
+      <p class="section-paragraph" style="color: white; opacity: 0.8; margin-bottom: 3rem;">
+        Arrange a private viewing with our real estate collection specialists. Discover available floor plans and bespoke customization options.
+      </p>
+      <button class="btn-luxe-accent" id="open-booking-btn-2">Inquire Now</button>
+    </div>
+  </section>
+
+  <!-- ----------------------------------------------------
+       FOOTER
+       ---------------------------------------------------- -->
+  <footer class="footer" id="footer">
+    <div class="section-container footer-grid">
+      <div class="footer-col brand-col">
+        <img src="./footer-logo.png" alt="THOTH SPARKZ" class="footer-logo" loading="lazy" decoding="async">
+        <p class="footer-info">
+          Località THOTH SPARKZ, 50050<br>
+          Montaione, Firenze, Italia<br>
+          Tel: +39 0571 892000<br>
+          Email: info@thotsparkzresort.com
+        </p>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-col-title">Properties</h4>
+        <ul class="footer-links">
+          <li><a href="real-estate.html">Real Estate</a></li>
+          <li><a href="villas.html">Villas</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-col-title">Contact</h4>
+        <ul class="footer-links">
+          <li><a href="#footer">Contact Us</a></li>
+          <li><a href="mailto:info@thotsparkzresort.com">Email Us</a></li>
+          <li><a href="tel:+390571892000">Call Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-col-title">Connect</h4>
+        <div class="footer-socials">
+          <a href="https://www.instagram.com/thotsparkz" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+          <a href="https://www.facebook.com/thotsparkz" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/company/thotsparkz" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
+          <a href="https://www.youtube.com/@thotsparkz" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+              <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="section-container footer-bottom">
+      <p class="copyright">&copy; 2026 THOTH SPARKZ. All Rights Reserved. VAT Reg. No. IT05630340486. Website by THOTH SPARKZ Design.</p>
+      <div class="footer-legal-links">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms.html">Terms & Conditions</a>
+        <a href="cookies.html">Cookie Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ----------------------------------------------------
+       JAVASCRIPT
+       ---------------------------------------------------- -->
+  <script>
+  window.addEventListener('DOMContentLoaded', () => {
+    // 1. Lenis Smooth Scroll
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const lenis = (!prefersReducedMotion && window.Lenis) ? new Lenis({
+      duration: 1.2,
+      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+      direction: 'vertical',
+      smooth: true,
+      smoothTouch: false,
+    }) : { raf() {}, stop() {}, start() {} };
+
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+    if (!prefersReducedMotion && window.Lenis) requestAnimationFrame(raf);
+
+    // 2. Header Scroll Effect
+    const header = document.querySelector('.header');
+    
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 30) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    });
+    
+    if (window.scrollY > 30) {
+      header.classList.add('scrolled');
+    }
+
+    // 3. Hamburger Menu Toggle & Close Button
+    const burgerMenuBtn = document.getElementById('burger-menu-btn');
+    const mobileOverlayMenu = document.getElementById('mobile-overlay-menu');
+    
+    const openMenu = () => {
+      burgerMenuBtn.classList.add('active');
+      mobileOverlayMenu.classList.add('active');
+      document.body.classList.add('menu-open');
+      burgerMenuBtn.setAttribute('aria-expanded', 'true');
+      burgerMenuBtn.setAttribute('aria-label', 'Close menu');
+      mobileOverlayMenu.setAttribute('aria-hidden', 'false');
+      lenis.stop();
+    };
+
+    const closeMenu = () => {
+      burgerMenuBtn.classList.remove('active');
+      mobileOverlayMenu.classList.remove('active');
+      document.body.classList.remove('menu-open');
+      burgerMenuBtn.setAttribute('aria-expanded', 'false');
+      burgerMenuBtn.setAttribute('aria-label', 'Menu');
+      mobileOverlayMenu.setAttribute('aria-hidden', 'true');
+      lenis.start();
+    };
+
+    burgerMenuBtn.addEventListener('click', () => {
+      if (mobileOverlayMenu.classList.contains('active')) {
+        closeMenu();
+      } else {
+        openMenu();
+      }
+    });
+    
+    // Close menu on overlay link clicks
+    const overlayLinks = document.querySelectorAll('.overlay-link');
+    overlayLinks.forEach(link => {
+      link.addEventListener('click', closeMenu);
+    });
+
+    // Card-style links use data-href to avoid inline JavaScript.
+    document.querySelectorAll('[role="link"][tabindex="0"]').forEach(linkCard => {
+      linkCard.addEventListener('click', (e) => {
+        if (e.target.closest('a, button')) return;
+        const href = linkCard.dataset.href;
+        if (href) window.location.href = href;
+      });
+
+      linkCard.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          linkCard.click();
+        }
+      });
+    });
+
+    // 4. Booking Modal Toggle
+    const openBookingBtn = document.getElementById('open-booking-btn');
+    const openBookingBtn2 = document.getElementById('open-booking-btn-2');
+    const bookingModal = document.getElementById('booking-modal');
+    const closeBookingBtn = document.getElementById('close-booking-btn-cross');
+    const closeBookingBg = document.getElementById('close-booking-bg');
+    
+    const openModal = () => {
+      bookingModal.classList.add('active');
+      document.body.classList.add('modal-open');
+      bookingModal.setAttribute('aria-hidden', 'false');
+      lenis.stop();
+    };
+
+    const closeModal = () => {
+      bookingModal.classList.remove('active');
+      document.body.classList.remove('modal-open');
+      bookingModal.setAttribute('aria-hidden', 'true');
+      lenis.start();
+    };
+
+    openBookingBtn.addEventListener('click', openModal);
+    if (openBookingBtn2) openBookingBtn2.addEventListener('click', openModal);
+    closeBookingBtn.addEventListener('click', closeModal);
+    closeBookingBg.addEventListener('click', closeModal);
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        closeModal();
+        if (burgerMenuBtn.classList.contains('active')) {
+          closeMenu();
+        }
+      }
+    });
+
+    document.getElementById('booking-form').addEventListener('submit', (e) => {
+      e.preventDefault();
+      alert('Thank you. A THOTH SPARKZ specialist will contact you shortly.');
+      closeModal();
+    });
+
+    // 5. Cinematic depth + property panel motion
+    if (window.gsap && window.ScrollTrigger && !prefersReducedMotion) {
+      gsap.registerPlugin(ScrollTrigger);
+      gsap.to('.hero-banner-bg', {
+        scrollTrigger: {
+          trigger: '.intro-section',
+          start: 'top bottom',
+          end: 'top top',
+          scrub: true
+        },
+        scale: 1.16,
+        filter: 'brightness(0.62)',
+        ease: 'none'
+      });
+
+      gsap.to('.hero-banner-content', {
+        scrollTrigger: {
+          trigger: '.intro-section',
+          start: 'top bottom',
+          end: 'top 20%',
+          scrub: true
+        },
+        y: -70,
+        opacity: 0,
+        ease: 'none'
+      });
+
+      // Castelfalfi-style image curtain and text reveals.
+      gsap.set('.block-image-container', { clipPath: 'inset(100% 0% 0% 0%)' });
+      gsap.set('.block-image', { scale: 1.18, y: 30 });
+      gsap.set('.anim-text', {
+        opacity: 0,
+        y: 42,
+        filter: 'blur(8px)',
+        rotateX: -8,
+        transformOrigin: 'left center'
+      });
+
+      document.querySelectorAll('.property-block').forEach((block) => {
+        const imgContainer = block.querySelector('.block-image-container');
+        const img = block.querySelector('.block-image');
+        const textNodes = block.querySelectorAll('.anim-text');
+
+        gsap.to(imgContainer, {
+          scrollTrigger: {
+            trigger: block,
+            start: 'top 75%',
+            toggleActions: 'play none none none'
+          },
+          clipPath: 'inset(0% 0% 0% 0%)',
+          duration: 1.4,
+          ease: 'power3.inOut'
+        });
+
+        gsap.to(img, {
+          scrollTrigger: {
+            trigger: block,
+            start: 'top 75%',
+            toggleActions: 'play none none none'
+          },
+          scale: 1,
+          y: 0,
+          duration: 1.6,
+          ease: 'power3.out'
+        });
+
+        gsap.to(textNodes, {
+          scrollTrigger: {
+            trigger: block,
+            start: 'top 70%',
+            toggleActions: 'play none none none'
+          },
+          opacity: 1,
+          y: 0,
+          filter: 'blur(0px)',
+          rotateX: 0,
+          duration: 1,
+          stagger: 0.18,
+          ease: 'power3.out'
+        });
+
+        block.addEventListener('mousemove', (e) => {
+          const bounds = block.getBoundingClientRect();
+          const x = (e.clientX - bounds.left) / bounds.width - 0.5;
+          const y = (e.clientY - bounds.top) / bounds.height - 0.5;
+          gsap.to(imgContainer, {
+            rotateY: x * 8,
+            rotateX: y * -6,
+            z: 20,
+            duration: 0.45,
+            ease: 'power3.out',
+            transformPerspective: 900,
+            transformOrigin: 'center'
+          });
+        });
+
+        block.addEventListener('mouseleave', () => {
+          gsap.to(imgContainer, {
+            rotateX: 0,
+            rotateY: 0,
+            z: 0,
+            duration: 0.65,
+            ease: 'power3.out'
+          });
+        });
+      });
+    }
+
+    const showcaseItems = [
+      { kicker: 'Heritage Residence', title: 'Palazzo Grande', desc: 'Restored noble architecture, panoramic views, and resort living gathered into one private address.' },
+      { kicker: 'Penthouse Collection', title: 'Cielo Penthouse', desc: 'A rooftop belvedere and 360-degree views turn the Tuscan skyline into part of the residence.' },
+      { kicker: 'Estate Residence', title: 'Tenuta Heritage', desc: 'Historic stone, vaulted ceilings, private gardens, and wine-cellar intimacy for long-format living.' }
+    ];
+    const showcaseTitle = document.getElementById('showcase-title');
+    const showcaseKicker = document.getElementById('showcase-kicker');
+    const showcaseDesc = document.getElementById('showcase-desc');
+    const showcaseImages = document.querySelectorAll('#showcase-visual img');
+    let activeShowcaseIndex = 0;
+    const setShowcase = (index) => {
+      const item = showcaseItems[index];
+      if (!item || !showcaseTitle || activeShowcaseIndex === index) return;
+      activeShowcaseIndex = index;
+      showcaseKicker.textContent = item.kicker;
+      showcaseTitle.textContent = item.title;
+      showcaseDesc.textContent = item.desc;
+      showcaseImages.forEach((img, i) => img.classList.toggle('active', i === index));
+      if (window.gsap && !prefersReducedMotion) {
+        gsap.fromTo('.showcase-copy > *', { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.55, stagger: 0.08, ease: 'power3.out' });
+        gsap.fromTo(showcaseImages[index], { opacity: 0, scale: 1.08 }, { opacity: 1, scale: 1, duration: 0.8, ease: 'power3.out' });
+      }
+    };
+    if (window.ScrollTrigger && !prefersReducedMotion) {
+      ScrollTrigger.create({
+        trigger: '.pinned-showcase',
+        start: 'top top',
+        end: '+=220%',
+        pin: '.showcase-pin',
+        scrub: true,
+        onUpdate: (self) => setShowcase(Math.min(2, Math.floor(self.progress * 3)))
+      });
+    }
+
+    // Menu Overlay Scenery Carousel
+    const menuImages = [
+      "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1464146072230-91cabc968266?auto=format&fit=crop&w=1200&q=80"
+    ];
+    let menuImgIndex = 0;
+    const menuImgEl = document.querySelector('.overlay-tuscan-img');
+    if (menuImgEl) {
+      setInterval(() => {
+        menuImgIndex = (menuImgIndex + 1) % menuImages.length;
+        menuImgEl.style.opacity = 0;
+        setTimeout(() => {
+          menuImgEl.src = menuImages[menuImgIndex];
+          menuImgEl.style.opacity = 1;
+        }, 300);
+      }, 2000);
+      const menuMap = {
+        'Real Estate': 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80',
+        'Villas': 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1200&q=80'
+      };
+      overlayLinks.forEach(link => {
+        link.addEventListener('mouseenter', () => {
+          const nextImage = menuMap[link.textContent.trim()];
+          if (!nextImage) return;
+          if (!window.gsap) {
+            menuImgEl.src = nextImage;
+            return;
+          }
+          gsap.to(menuImgEl, {
+            opacity: 0,
+            scale: 1.04,
+            duration: 0.25,
+            onComplete: () => {
+              menuImgEl.src = nextImage;
+              gsap.to(menuImgEl, { opacity: 1, scale: 1, duration: 0.45, ease: 'power2.out' });
+            }
+          });
+        });
+      });
+    }
+  });
+  </script>
+  <script defer src="/js/register-sw.js"></script>
+</body>
+
+</html>
