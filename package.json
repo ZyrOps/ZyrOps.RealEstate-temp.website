@@ -1,14 +1,12 @@
 {
-  "name": "tuscan-villas-estates-resort",
+  "name": "atelier-form-replica",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host 127.0.0.1 --port 5173",
     "build": "vite build",
-    "preview": "vite preview",
-    "audit:prod": "npm audit --omit=dev",
-    "check": "npm run build && npm run audit:prod"
+    "preview": "vite preview --host 127.0.0.1 --port 4173"
   },
   "devDependencies": {
     "vite": "^7.2.4"

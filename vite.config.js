@@ -1,25 +1,14 @@
-import { defineConfig } from 'vite';
-import { resolve } from 'path';
+import { resolve } from "node:path";
 
-export default defineConfig({
+export default {
   build: {
     rollupOptions: {
-      // Each HTML file is a standalone entry in this static multi-page site.
       input: {
-        main: resolve(__dirname, 'index.html'),
-        realEstate: resolve(__dirname, 'real-estate.html'),
-        villas: resolve(__dirname, 'villas.html'),
-        propertyDetail: resolve(__dirname, 'property-detail.html'),
-        privacyPolicy: resolve(__dirname, 'privacy-policy.html'),
-        terms: resolve(__dirname, 'terms.html'),
-        cookies: resolve(__dirname, 'cookies.html'),
+        main: resolve(__dirname, "index.html"),
+        blueHorizonVillas: resolve(__dirname, "properties/blue-horizon-villas/index.html"),
+        metroHeights: resolve(__dirname, "properties/metro-heights/index.html"),
+        gardenCourtResidences: resolve(__dirname, "properties/garden-court-residences/index.html"),
       },
     },
   },
-  // Allow Vite dev/preview to serve root-level media files.
-  server: {
-    fs: {
-      allow: ['.'],
-    },
-  },
-});
+};

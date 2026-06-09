@@ -1,20 +1,6 @@
-# Dependencies
 node_modules/
-
-# Production build output
 dist/
-
-# Local environment files
-.env
-.env.local
-.env.*.local
-
-# Generated logs and temporary audit output
+.vite/
 *.log
-*.err.log
-
-# OS/editor noise
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
+test-results/
+playwright-report/
